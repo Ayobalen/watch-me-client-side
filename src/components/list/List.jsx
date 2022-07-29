@@ -8,7 +8,7 @@ import './list.scss'
     const [ isMoved, setIsMoved ] = useState(false);
     const [ slideNumber, setSlideNumber ] = useState(0);
 
-const listRef = useRef(null);
+const listRef = useRef();
 
 
     const handleClick = (direction) => {
