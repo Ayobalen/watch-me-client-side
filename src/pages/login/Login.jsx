@@ -1,6 +1,5 @@
 import './login.scss'
 
-
 function Login() {
   return (
     <div className='login'>
@@ -11,7 +10,7 @@ function Login() {
              src='https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo-2001.png' alt='' />
        </div>
         </div>
-        <div className="container">
+        <div className="logincontainer">
           <form>
             <h1>Sign In</h1>
             <input type='email' placeholder='Email or phone number'></input>
